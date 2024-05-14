@@ -1,0 +1,29 @@
+.product-container {
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+}
+
+.product-image {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-info {
+  width: 40%;
+}
+
+.product-button {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.button-del{
+  background: rgb(241, 119, 12);
+  width: 80%;
+  height: 30px
+}
